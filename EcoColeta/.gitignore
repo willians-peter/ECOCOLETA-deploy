@@ -1,0 +1,47 @@
+# dependênciass
+/node_modules
+/.pnp
+.pnp.js
+/.vite/deps/
+node_modules/
+npm-debug.log
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock
+.vite/
+dist/
+build/
+
+
+
+
+# testes
+/coverage
+
+# produção / build
+/build
+/dist
+/out
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# variáveis de ambiente (SENSÍVEL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor e sistema
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
