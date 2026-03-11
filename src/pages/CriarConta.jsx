@@ -114,7 +114,7 @@ const handleSubmit = async (e) => {
       <Box sx={{ mt: 4, mb: 4 }}>
         <Paper elevation={3} sx={{ p: 4 }}>
           <Typography variant="h4" align="center" sx={{ mb: 3, color: '#7b1fa2', fontWeight: 'bold' }}>
-            Criar conta JoinGreen
+            Criar conta  Ecocolleta
           </Typography>
 
           {erro && <Alert severity="error" sx={{ mb: 2 }}>{erro}</Alert>}

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.9",
     "@mui/material": "^7.3.8",
+    "@vercel/analytics": "^1.6.1",
     "axios": "^1.13.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
